@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class PDFListFragment extends Fragment {
-    String[] pdfFiles = {"pdf1.pdf", "pdf2.pdf", "pdf3.pdf", "pdf4.pdf"};
+    String[] pdfFiles = {"pdf/pdf1.pdf", "pdf/pdf2.pdf", "pdf/pdf3.pdf", "pdf/pdf4.pdf"};
     OnPDFSelectedListener listener;
     public interface OnPDFSelectedListener {
         void onPDFSelected(String pdfFile);
@@ -41,3 +41,4 @@ public class PDFListFragment extends Fragment {
         }
     }
 }
+
